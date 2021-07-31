@@ -236,5 +236,9 @@ input:checked + .slider:before {
       border-radius: 6px;
       box-shadow: inset 0px 0px 0px 1px hsl(237, 63%, 64%);
     }
+
+    &:hover {
+      filter: brightness(0.95);
+    }
   }
 }

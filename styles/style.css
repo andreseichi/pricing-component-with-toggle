@@ -270,4 +270,9 @@ input:checked + .slider:before {
   -webkit-box-shadow: inset 0px 0px 0px 1px #696fdd;
           box-shadow: inset 0px 0px 0px 1px #696fdd;
 }
+
+.btn a:hover {
+  -webkit-filter: brightness(0.95);
+          filter: brightness(0.95);
+}
 /*# sourceMappingURL=style.css.map */
