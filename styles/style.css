@@ -138,6 +138,7 @@ input:checked + .slider:before {
 }
 
 .cards {
+  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -193,9 +194,10 @@ input:checked + .slider:before {
 }
 
 .card + .professional {
+  border-radius: 12px;
   background: -webkit-gradient(linear, left top, right bottom, from(#a3a8f0), to(#696fdd));
   background: linear-gradient(to bottom right, #a3a8f0, #696fdd);
-  padding: 6.4rem 2.8rem;
+  padding: 5.6rem 2.8rem;
 }
 
 .card + .professional h2 {
@@ -215,6 +217,14 @@ input:checked + .slider:before {
 .card + .professional .btn a {
   background: #fff;
   color: #696fdd;
+}
+
+.cards .card:first-of-type {
+  border-radius: 12px 0 0 12px;
+}
+
+.cards .card:nth-of-type(3) {
+  border-radius: 0 12px 12px 0;
 }
 
 .btn {

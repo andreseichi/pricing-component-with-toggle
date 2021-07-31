@@ -114,6 +114,7 @@ input:checked + .slider:before {
 
 // cards
 .cards {
+  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -159,12 +160,13 @@ input:checked + .slider:before {
 // professional card
 .card + {
   .professional {
+    border-radius: 12px;
     background: linear-gradient(
       to bottom right,
       hsl(236, 72%, 79%),
       hsl(237, 63%, 64%)
     );
-    padding: 6.4rem 2.8rem;
+    padding: 5.6rem 2.8rem;
 
     h2 {
       color: #fff;
@@ -186,6 +188,16 @@ input:checked + .slider:before {
         color: hsl(237, 63%, 64%);
       }
     }
+  }
+}
+
+.cards {
+  .card:first-of-type {
+    border-radius: 12px 0 0 12px;
+  }
+
+  .card:nth-of-type(3) {
+    border-radius: 0 12px 12px 0;
   }
 }
 
