@@ -82,6 +82,13 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+.background {
+  background-color: #f6f6fe;
+  background-image: url("../images/bg-top.svg"), url("../images/bg-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 100% 0, 0 100%;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
