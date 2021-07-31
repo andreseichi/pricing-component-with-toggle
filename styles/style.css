@@ -42,7 +42,6 @@ body {
   bottom: 0;
   background: -webkit-gradient(linear, left top, right top, from(#a3a8f0), to(#696fdd));
   background: linear-gradient(to right, #a3a8f0, #696fdd);
-  -webkit-transition: 0.4s;
   -webkit-transition: -webkit-transform 0.4s;
   transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
@@ -54,10 +53,9 @@ body {
   content: '';
   height: 26px;
   width: 26px;
-  left: 4px;
+  right: 4px;
   bottom: 4px;
   background-color: white;
-  -webkit-transition: 0.4s;
   -webkit-transition: -webkit-transform 0.4s;
   transition: -webkit-transform 0.4s;
   transition: transform 0.4s;
@@ -69,8 +67,8 @@ body {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  transform: translateX(26px);
+  -webkit-transform: translateX(-26px);
+          transform: translateX(-26px);
 }
 
 /* Rounded sliders */
