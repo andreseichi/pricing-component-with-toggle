@@ -138,7 +138,6 @@ input:checked + .slider:before {
 }
 
 .cards {
-  overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -152,6 +151,8 @@ input:checked + .slider:before {
 }
 
 .cards .card {
+  -webkit-box-shadow: 0 4px 20px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 4px 20px 4px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   padding: 3rem 2.8rem;
   width: 100%;
@@ -194,6 +195,7 @@ input:checked + .slider:before {
 }
 
 .card + .professional {
+  z-index: 2;
   border-radius: 12px;
   background: -webkit-gradient(linear, left top, right bottom, from(#a3a8f0), to(#696fdd));
   background: linear-gradient(to bottom right, #a3a8f0, #696fdd);

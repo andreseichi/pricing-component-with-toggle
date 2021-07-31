@@ -114,13 +114,14 @@ input:checked + .slider:before {
 
 // cards
 .cards {
-  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
 
   .card {
+    box-shadow: 0 4px 20px 4px rgba(0, 0, 0, 0.1);
+
     background-color: #fff;
     padding: 3rem 2.8rem;
     width: 100%;
@@ -160,6 +161,7 @@ input:checked + .slider:before {
 // professional card
 .card + {
   .professional {
+    z-index: 2;
     border-radius: 12px;
     background: linear-gradient(
       to bottom right,
@@ -209,7 +211,6 @@ input:checked + .slider:before {
   margin-top: 3.4rem;
   font-size: 1.4rem;
   border-radius: 6px;
-  // box-shadow: 0 6px 10px 5px rgba(0, 0, 0, 0.1);
 
   a {
     background: linear-gradient(
