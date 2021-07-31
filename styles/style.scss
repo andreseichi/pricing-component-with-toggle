@@ -121,7 +121,7 @@ input:checked + .slider:before {
 
   .card {
     background-color: #fff;
-    padding: 2.8rem;
+    padding: 3rem 2.8rem;
     width: 100%;
 
     h2 {
@@ -152,6 +152,39 @@ input:checked + .slider:before {
       border-top: 1px solid hsl(234, 14%, 74%);
       border-bottom: 1px solid hsl(234, 14%, 74%);
       margin-top: -1px;
+    }
+  }
+}
+
+// professional card
+.card + {
+  .professional {
+    background: linear-gradient(
+      to bottom right,
+      hsl(236, 72%, 79%),
+      hsl(237, 63%, 64%)
+    );
+    padding: 6.4rem 2.8rem;
+
+    h2 {
+      color: #fff;
+    }
+
+    .price {
+      color: #fff;
+    }
+
+    .info-text {
+      color: #fff;
+      border-top: 1px solid hsl(236, 72%, 79%);
+      border-bottom: 1px solid hsl(236, 72%, 79%);
+    }
+
+    .btn {
+      a {
+        background: #fff;
+        color: hsl(237, 63%, 64%);
+      }
     }
   }
 }

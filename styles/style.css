@@ -152,7 +152,7 @@ input:checked + .slider:before {
 
 .cards .card {
   background-color: #fff;
-  padding: 2.8rem;
+  padding: 3rem 2.8rem;
   width: 100%;
 }
 
@@ -190,6 +190,31 @@ input:checked + .slider:before {
   border-top: 1px solid #b3b5c6;
   border-bottom: 1px solid #b3b5c6;
   margin-top: -1px;
+}
+
+.card + .professional {
+  background: -webkit-gradient(linear, left top, right bottom, from(#a3a8f0), to(#696fdd));
+  background: linear-gradient(to bottom right, #a3a8f0, #696fdd);
+  padding: 6.4rem 2.8rem;
+}
+
+.card + .professional h2 {
+  color: #fff;
+}
+
+.card + .professional .price {
+  color: #fff;
+}
+
+.card + .professional .info-text {
+  color: #fff;
+  border-top: 1px solid #a3a8f0;
+  border-bottom: 1px solid #a3a8f0;
+}
+
+.card + .professional .btn a {
+  background: #fff;
+  color: #696fdd;
 }
 
 .btn {
