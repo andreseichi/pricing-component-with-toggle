@@ -57,7 +57,7 @@ body {
   transition: transform 0.4s;
 }
 
-.slider:hover {
+.slider:active {
   background: hsl(236, 72%, 79%);
 }
 
@@ -188,6 +188,13 @@ input:checked + .slider:before {
       a {
         background: #fff;
         color: hsl(237, 63%, 64%);
+
+        &:active {
+          background: none;
+          color: #fff;
+          border-radius: 6px;
+          box-shadow: inset 0px 0px 0px 1px #fff;
+        }
       }
     }
   }
@@ -204,6 +211,7 @@ input:checked + .slider:before {
 }
 
 .btn {
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -221,5 +229,12 @@ input:checked + .slider:before {
     color: hsl(240, 78%, 98%);
     padding: 1.5rem 0;
     width: 100%;
+
+    &:active {
+      background: #fff;
+      color: hsl(237, 63%, 64%);
+      border-radius: 6px;
+      box-shadow: inset 0px 0px 0px 1px hsl(237, 63%, 64%);
+    }
   }
 }
