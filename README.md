@@ -1,4 +1,4 @@
-# Frontend Mentor - Profile card component solution
+# Frontend Mentor - Pricing Component with Toggle solution
 
 This is a solution to the [Pricing Component with Toggle challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/pricing-component-with-toggle-8vPwRMIC). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
