@@ -33,7 +33,7 @@ This is a solution to the [Pricing Component with Toggle challenge on Frontend M
 
 ### Links
 
-- Solution URL: [My Solution](https://github.com/andreseichi/pricing-component-with-toggle)
+- Solution URL: [My Solution]https://www.frontendmentor.io/solutions/some-basic-html-sass-and-javascript-2csl_w4gd)
 - Live Site URL: [Github Page](https://andreseichi.github.io/pricing-component-with-toggle/)
 
 ## My process
